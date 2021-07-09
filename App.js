@@ -6,7 +6,13 @@ class Shop extends React.Component{
   state={
     Homecomponet:[
       {name:"surafga",sex:"male"},
-      {name:"surakaa",sex:"male"}
+      {name:"surakaa",sex:"male"}l
+      fsafs
+      fasfs
+      fafafdaafa
+      falsefafa
+      fafafdaafaafaf
+      afdfa
     ],
   } 
   handeler=()=>{
