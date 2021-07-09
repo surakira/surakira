@@ -1,16 +1,30 @@
-### Hi there 👋
+# ATM System - Object Oriented Design
 
-<!--
-**surakira/surakira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Academic project to design a basic ATM system for a bank to allow the user the to withdraw and deposit money into his account. 
+The data structure used here is an Array
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Account.java
+-- Account object for the users, contains name, balance, card #, expiration date.
+-- Basic get and set methods to update and retreive information from the object.
+-- toString method to display the object in the command line
+
+# Bank.java
+-- Contains data structures using ArrayList()
+-- authroizeATM() function is used to double check if the program contains object with the correct numbers
+-- withdraw updates object if it has enough amount 
+
+# ATMSystem.java
+-- Main class
+-- Uses simple system.out.print commands to prompt the user
+-- User input is taken using a scanner
+-- After authorization the user is able to withdraw/deposit money into the account (object)
+
+# Singleton Creational pattern
+-- bankAdaptor created only one instance
+
+# Adaptor Structural pattern
+-- bankAdaptor used to choose between bank A and b
+
+# Observer Behavioural paatten 
+-- observe the bank account balance when withdrawn and deposited
